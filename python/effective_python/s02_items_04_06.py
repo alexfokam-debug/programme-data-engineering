@@ -7,7 +7,7 @@ def get_order_summary(order):
     for the lecture of the order tuple. This makes the code more readable and maintainable.
     """
     order_id, customer, amount = order
-    return f'Order Summary: Order ID: {order_id}, Customer: {customer}, Amont: {amount}'
+    return f"Order Summary: Order ID: {order_id}, Customer: {customer}, Amont: {amount}"
 
 
 def create_single_item_tuple(product):
@@ -15,13 +15,8 @@ def create_single_item_tuple(product):
     Item 06
 
     Function to create a single-item tuple.
-    
-    The goal is to demonstrate the correct way to create a single-item tuple in Python. 
+
+    The goal is to demonstrate the correct way to create a single-item tuple in Python.
     A single-item tuple must have a trailing comma after the item, otherwise it will be interpreted as a regular parenthesis.
     """
     return (product,)
-
-
-
-
-

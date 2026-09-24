@@ -1,7 +1,7 @@
 from python.effective_python.s05_items_13_15 import (
     build_topics,
-    get_slice_examples,
     get_even_values_from_middle,
+    get_slice_examples,
 )
 
 

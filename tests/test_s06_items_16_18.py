@@ -1,9 +1,10 @@
 import pytest
+
 from python.effective_python.s06_items_16_18 import (
-    split_scores,
-    number_tasks,
     build_study_plan,
+    number_tasks,
     organize_study_plan,
+    split_scores,
 )
 
 

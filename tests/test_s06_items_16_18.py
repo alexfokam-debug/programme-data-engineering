@@ -3,7 +3,7 @@ from python.effective_python.s06_items_16_18 import (
     split_scores,
     number_tasks,
     build_study_plan,
-    organize_study_plan,                  
+    organize_study_plan,
 )
 
 
@@ -28,9 +28,6 @@ def test_split_scores_insufficient():
         split_scores([100])
 
 
-
-
-
 def test_number_tasks():
     tasks = ["SQL", "Python", "PySpark", "Databricks"]
 
@@ -40,7 +37,6 @@ def test_number_tasks():
         (3, "PySpark"),
         (4, "Databricks"),
     ]
-
 
 
 def test_build_study_plan_equal_lengths():
@@ -63,11 +59,12 @@ def test_build_study_plan_truncates_to_shortest():
         ("Python", 30),
     ]
 
+
 def test_organize_study_plan():
     result = organize_study_plan(
-    ["SQL", "Python", "Databricks", "Power BI"],
-    [45, 30, 60, 20],
-)
+        ["SQL", "Python", "Databricks", "Power BI"],
+        [45, 30, 60, 20],
+    )
 
     assert result == (
         (1, "SQL", 45),
